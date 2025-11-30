@@ -1,0 +1,68 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files (if applicable)
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE-specific files (e.g., Visual Studio)
+.vs/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+*.suo
+*.user
+*.ilk
+*.pdb
+*.ipch
+*.log
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# Other common temporary files
+*~
+*.bak
+*.swp
+*.tmp
+*.log
+
+# executable files
+dest/*
+!dest/.gitkeep
+
