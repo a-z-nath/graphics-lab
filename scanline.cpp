@@ -19,8 +19,14 @@ struct Point {
   int x, y;
 };
 
-// Example Polygon vertices
-vector<Point> vertices = {{100, 100}, {250, 400}, {400, 100}, {250, 200}};
+// Example polygon vertices (anticlockwise pentagon)
+vector<Point> vertices = {
+    {250, 400}, // top
+    {130, 320}, // upper-left
+    {180, 150}, // lower-left
+    {320, 150}, // lower-right
+    {370, 320}  // upper-right
+};
 
 /**
  * 1. Initialize the Edge Table (ET) with all polygon edges.
